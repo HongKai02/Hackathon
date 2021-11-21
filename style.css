@@ -1,3 +1,4 @@
+
 body{
     height: 100vh;
     width: 100%;
@@ -5,9 +6,58 @@ body{
 }
 
 #loginPage {
+    position: relative;
+    top: 300px;
+    bottom: 30px;
     background-color: white;
-    width: 500px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
+    padding: 60px;
   
+}
+
+.form{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.form input {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.username, .password {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px;
+    margin-bottom: 30px;
+}
+
+button.signin-btn{
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #59c9fc;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.sign-up{
+    text-align: center;
 }
