@@ -1,5 +1,13 @@
-.bg-gradiant{
+body{
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(#62e3cd,#355ea6 )
+}
+
+#loginPage {
+    background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
